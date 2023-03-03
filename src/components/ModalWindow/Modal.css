@@ -1,0 +1,42 @@
+.overlay {
+    opacity: 1;
+    visibility:visible;
+    background: rgba(0, 0, 0, 50%);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    }
+
+.modal {
+position: fixed;
+top: 300px;
+right: 30%;
+left: 30%;
+z-index: 1000;
+width: 40%;
+height: 300px;
+border-radius: 15px;
+background: white;
+}
+
+.input {
+    width: 40%;
+    height: 20px;
+}
+
+.modal > form > button {
+    height: 30px;
+border: solid 1px;
+background: yellow;
+}
+
+.modal > form > button:hover {
+    background:orange;
+}
+
+.show {
+    opacity: 1;
+    visibility: visible;
+}
